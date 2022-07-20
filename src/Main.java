@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int daysinshegoestech = 3;
+        int daysinshegoestech = 12;
         switch (daysinshegoestech) {
             case 1:
                 System.out.println("Just started");
