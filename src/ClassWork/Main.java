@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class Main {
     public static void main(String[] args) {
         int daysinshegoestech = 12;

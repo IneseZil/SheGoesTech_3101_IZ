@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class Switch {
 
     public static void main(String[] args) {

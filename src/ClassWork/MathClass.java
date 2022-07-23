@@ -1,3 +1,5 @@
+package ClassWork;
+
 public class MathClass {
     public static void main(String[] args) {
         float num=-5.346f;
