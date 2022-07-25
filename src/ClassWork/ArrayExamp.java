@@ -11,7 +11,7 @@ public class ArrayExamp {
         names[2] = "Qwerty";
 
         //How to get array's element value
-        System.out.println(names[1]+" "+names[0]+" "+names[2]);
+        System.out.println(names[1] + " " + names[0] + " " + names[2]);
 
         int[] grades = new int[10];
         grades[0] = 10;
@@ -29,8 +29,16 @@ public class ArrayExamp {
         System.out.println("Array's size: " + grades.length);
 
         //How to print out all elements
-        for(int i = 0; i < grades.length; i++) {
-            System.out.print(grades[i]+" ");
-            }
+        System.out.println("Print all 1st");
+        for (int i = 0; i < grades.length; i++) {
+            System.out.print(grades[i] + " ");
+        }
+
+        //Printing out all array's elements using For-each loop
+        System.out.println("");
+        System.out.print("Print all 2nd ");
+        for (int temp : grades) {
+            System.out.print(temp + " ");
         }
     }
+}

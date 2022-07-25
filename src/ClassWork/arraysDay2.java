@@ -1,7 +1,7 @@
-package Homework;
+package ClassWork;
 import java.util.Scanner;
 
-public class HW1_2507 {
+public class arraysDay2 {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
