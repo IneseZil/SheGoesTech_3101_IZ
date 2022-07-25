@@ -18,6 +18,7 @@ public class arraysDay2 {
             grade[i] = scanner.nextInt();
             sumGrade+= grade[i];
             counter++;
+            System.out.println("Sum "+sumGrade);
             }
 
         System.out.print("Your grades are ");
@@ -27,7 +28,7 @@ public class arraysDay2 {
             i++;
         }
             float averageGrade;
-            averageGrade = (float) sumGrade / counter;
+            averageGrade = (float) sumGrade / exams;
             int bestGrade;
             System.out.println(" ");
             System.out.println("Please enter maximum grade for an exam");
