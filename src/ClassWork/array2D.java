@@ -1,7 +1,5 @@
 package ClassWork;
 
-import java.util.Arrays;
-
 public class array2D {
     public static void main(String[] args) {
 
@@ -18,7 +16,7 @@ public class array2D {
         names[0][1] = "Alice";
         names[0][2] = "Tima";
         names[0][3] = "Renārs";
-        names[0][4] = "Poli";
+        names[0][4] = "Polina";
 
         //2nd row
         names[1][0] = "Pavels";
@@ -33,13 +31,22 @@ public class array2D {
         System.out.println("Total people: "+(names.length*names[0].length));
 
         //Total people another approach
-        // i represents rows AND j represents columns
+        // i represents rows AND j represents columns. Nested For loop needed to repeat as many times as many dimensions
         for (int i = 0; i < names.length; i++){
             System.out.println("Row no. " +(i+1));
             for(int j = 0; j < names[i].length; j++){
                 System.out.println("Column no. "+(j+1));
-                System.out.println(names[i][j]);
+                System.out.print(names[i][j] + " ");
             }
+        }
+
+        for (String [] tempNames : names){
+            System.out.print("Row - ");
+            for (String name : tempNames) {
+                System.out.print(name + " ");
+            }
+            System.out.println();
+
         }
     }
 }
