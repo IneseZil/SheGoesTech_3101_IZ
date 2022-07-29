@@ -1,5 +1,7 @@
 package ClassWork;
 
+import java.util.Arrays;
+
 public class ArrayExamp {
     public static void main(String[] args) {
         //Declare array that will hold 3 String type variables
@@ -49,6 +51,7 @@ public class ArrayExamp {
             }else{
             System.out.println("odd number: " + value);
             }
+                System.out.println(Arrays.toString(table));
         }
 
     }
