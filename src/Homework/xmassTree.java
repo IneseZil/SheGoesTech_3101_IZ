@@ -26,7 +26,8 @@ public class xmassTree {
             for (int spaces = 0; spaces < height - i-1; spaces++) { //prints spaces in one line until reaches center
                 System.out.print(" ");
             }
-            for (int foot = 0; foot < 1; foot++ ) { //just one leg :-)
+            for (int foot = 0; foot < 1; foot++ ) { //just one leg :-) just a random comment
+
                 System.out.println("_#_");
             }
         }
