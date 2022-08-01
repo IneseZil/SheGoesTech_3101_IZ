@@ -17,13 +17,13 @@ public class xmassTree {
             for (int spaces = 0; spaces < height - i; spaces++) { //prints space until reaches number of lines-1
                 System.out.print(" ");
             }
-            for (int stars = 0; stars < (2 * i + 1); stars++) { //ads up stars each new line the same as line #+1
+            for (int stars = 0; stars < (2 * i + 1); stars++) { //ads up stars each new line the same as 2*line #+1
                 System.out.print("%");
             }
             System.out.println();
             }
         for (int i = 0; i < 1; i++) {
-            for (int spaces = 0; spaces < height - i/2-1; spaces++) { //prints spaces in one line until reaches center
+            for (int spaces = 0; spaces < height - i-1; spaces++) { //prints spaces in one line until reaches center
                 System.out.print(" ");
             }
             for (int foot = 0; foot < 1; foot++ ) { //just one leg :-)
