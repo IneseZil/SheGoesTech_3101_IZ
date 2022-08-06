@@ -1,5 +1,7 @@
 package ClassWork;
 
+import java.util.Scanner;
+
 public class stringExamp {
     public static void main(String[] args) {
 
@@ -62,6 +64,18 @@ public class stringExamp {
         System.out.println(Double.parseDouble(doubleValue)+3);
         System.out.println(Boolean.parseBoolean(boolValue));
         System.out.println(Long.parseLong(longValue)+5);
+
+        //Trim method
+        System.out.println("     This is test text    ".trim());
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please input password (qwert*)");
+        String pswd = scanner.nextLine().trim().toLowerCase();
+
+        if(pswd.equals("qwert*")){
+            System.out.println("Password correct");
+        } else System.out.println("Password incorrect");
+
 
 
     }
