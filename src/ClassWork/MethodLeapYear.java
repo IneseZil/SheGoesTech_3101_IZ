@@ -8,10 +8,9 @@ public class MethodLeapYear {
         System.out.println("Please enter a year");
         int year = scanner.nextInt();
 
-        determinLeapYear(year);
-
+        determineLeapYear(year);
     }
-    public static void determinLeapYear(int year){
+    public static void determineLeapYear(int year){
         if (year % 400 == 0) {
             System.out.println(year + " is a Leap year");
         } else if (year % 4 == 0) {
