@@ -15,5 +15,12 @@ public class CallingBook {
 
         book1.printBookInfo();
 
+        Book book2 = new Book();
+        book2.setTitle("Pride and Prejudice");
+        book2.setAuthor("Jane Austen");
+        book2.setNumbOfPages(234);
+
+        book2.printBookInfo();
+
     }
 }
