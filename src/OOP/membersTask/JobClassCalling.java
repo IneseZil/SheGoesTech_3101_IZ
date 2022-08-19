@@ -1,4 +1,4 @@
-package OOP.membersTask;
+package oop.membersTask;
 
 public class JobClassCalling {
     public static void main(String[] args) {

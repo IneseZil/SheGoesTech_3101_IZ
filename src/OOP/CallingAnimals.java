@@ -1,4 +1,4 @@
-package OOP;public class CallingAnimals {
+package oop;public class CallingAnimals {
     public static void main(String[] args) {
 
         Animals cat1 = new Animals("Cat", "Brittish", 7.3f, 16);

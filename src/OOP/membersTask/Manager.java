@@ -1,4 +1,4 @@
-package OOP.membersTask;
+package oop.membersTask;
 
 class Manager extends Member {
     String department;

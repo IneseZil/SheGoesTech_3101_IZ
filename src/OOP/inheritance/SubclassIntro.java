@@ -1,4 +1,4 @@
-package OOP.inheritance;
+package oop.inheritance;
 
 class Parent {
     public void printParent() {

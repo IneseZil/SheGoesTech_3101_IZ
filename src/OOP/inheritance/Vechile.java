@@ -1,4 +1,4 @@
-package OOP.inheritance;
+package oop.inheritance;
 public class Vechile {
     //Fields
     protected String brand;

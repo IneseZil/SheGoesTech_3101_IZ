@@ -1,6 +1,4 @@
-package OOP;
-
-import java.util.Scanner;
+package oop;
 
 public class CallingBook {
     public static void main(String[] args) {
