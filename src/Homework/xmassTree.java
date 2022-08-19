@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 
 //two For loops in one outer For loop
 //need to change number of spaces and star symbols then switch to the next line and repeat
