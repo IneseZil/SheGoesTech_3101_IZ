@@ -25,6 +25,6 @@ public class Vehicle {
         return fuel/(fuelUsage*(1+passengers*0.05f))*100;
     }
     public static void main(String[] args) {
-        System.out.println("Maximum distance is: "+maxDistance(55.5f, 5.5f, 5));
+        System.out.println("Maximum distance is: "+(maxDistance(55.5f, 5.5f, 5)));
     }
 }
